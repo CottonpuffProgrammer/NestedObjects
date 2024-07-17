@@ -24,13 +24,18 @@ namespace NestedObjects
 		public string LastName { get; set; }
 
 		/// <summary>
+		/// The student's date of birth
+		/// </summary>
+		public DateOnly DateOfBirth { get; set; }
+
+		/// <summary>
 		/// The assigned school email address
 		/// of the student
 		/// </summary>
 		public string SchoolEmail { get; set; }
 
 		/// <summary>
-		/// The student's phone number
+		/// The student's preferred contact number
 		/// </summary>
 		public string PhoneNumber { get; set; }
 
